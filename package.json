@@ -1,0 +1,14 @@
+{
+  "name": "graves",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Graves",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
