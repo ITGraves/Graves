@@ -6,7 +6,7 @@ var path = require('path');
 
 
 app.get('/', function(req, res) {
-  res.end('HELLO WORLD');
+  res.end('敖炜是个大帅哥');
 });
 
 app.listen('8086');
