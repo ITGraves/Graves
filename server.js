@@ -15,6 +15,8 @@ app.set('view engine','html');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.use(express.static('public'));
+
 app.get('/', function(req, res) {
   res.render(path.resolve(__dirname, 'src/views/index'));
 });
