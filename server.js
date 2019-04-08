@@ -21,4 +21,8 @@ app.get('/', function(req, res) {
   res.render(path.resolve(__dirname, 'src/views/index'));
 });
 
+app.get('/test', function(req, res) {
+  res.end('我是你爹');
+});
+
 app.listen('8086');
